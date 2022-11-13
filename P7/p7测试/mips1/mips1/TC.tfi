@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+TC instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .Addr(Addr), 
+    .PC(PC), 
+    .WE(WE), 
+    .Din(Din), 
+    .Dout(Dout), 
+    .IRQ(IRQ)
+    );
+
+

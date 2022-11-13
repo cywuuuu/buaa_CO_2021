@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+CP0 instance_name (
+    .WD(WD), 
+    .PC(PC), 
+    .itr(itr), 
+    .M_rd(M_rd), 
+    .excode(excode), 
+    .db(db), 
+    .clk(clk), 
+    .reset(reset), 
+    .eret(eret), 
+    .CP0_wr(CP0_wr), 
+    .req(req), 
+    .EPC(EPC), 
+    .CP0_OUT(CP0_OUT)
+    );
+
+

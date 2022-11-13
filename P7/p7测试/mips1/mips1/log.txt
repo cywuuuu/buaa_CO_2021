@@ -1,0 +1,54 @@
+Running: D:\PROGRAM\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe --nodebug --prj mips.prj -o mips.exe mips_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\const.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\CP0.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\CPU.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\CTR.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\D2E.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\D_CMP.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\D_EXT.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\D_NPC.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\D_RF.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\E2M.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\E_ALU.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\E_MDU.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\F2D.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\F_IFU.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\M2W.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\mips.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\mips_tb.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\M_CHK.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\M_DM.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\STL.v" into library work
+Analyzing Verilog file "C:\Users\86135\Desktop\test_demo\test_p7\test_cmp1.3\mips1\src\timer.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module CTR
+Compiling module STL
+Compiling module IFU
+Compiling module F2D
+Compiling module RF
+Compiling module CMP
+Compiling module EXT
+Compiling module NPC
+Compiling module D2E
+Compiling module ALU
+Compiling module MDU
+Compiling module E2M
+Compiling module DM
+Compiling module CHK
+Compiling module CP0
+Compiling module M2W
+Compiling module CPU
+Compiling module TC
+Compiling module mips
+Compiling module mips_tb
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 20 Verilog Units
+Built simulation executable mips.exe
+Fuse Memory Usage: 33756 KB
+Fuse CPU Usage: 687 ms

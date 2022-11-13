@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/86135/Desktop/test_demo/test_p7/test_cmp1.2/mips1/mips_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/mips_tb/macroscopic_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">macroscopic_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">macroscopic_pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/i_inst_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_inst_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_inst_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/i_inst_rdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_inst_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_inst_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/m_data_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">m_data_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_data_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/m_data_rdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">m_data_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_data_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/m_data_wdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">m_data_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_data_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/m_data_byteen" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">m_data_byteen[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_data_byteen[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/m_inst_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">m_inst_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_inst_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/interrupt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupt</obj_property>
+      <obj_property name="ObjectShortName">interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/fixed_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fixed_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fixed_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/fixed_wdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fixed_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fixed_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/cpu/M_CP0/req_itr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">req_itr</obj_property>
+      <obj_property name="ObjectShortName">req_itr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/cpu/M_CP0/itr_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">itr_out</obj_property>
+      <obj_property name="ObjectShortName">itr_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/cpu/M_CP0/req_exc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">req_exc</obj_property>
+      <obj_property name="ObjectShortName">req_exc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/T0_itr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">T0_itr</obj_property>
+      <obj_property name="ObjectShortName">T0_itr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/T1_itr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">T1_itr</obj_property>
+      <obj_property name="ObjectShortName">T1_itr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/T0_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">T0_en</obj_property>
+      <obj_property name="ObjectShortName">T0_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/T1_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">T1_en</obj_property>
+      <obj_property name="ObjectShortName">T1_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/T_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">T_wr</obj_property>
+      <obj_property name="ObjectShortName">T_wr</obj_property>
+   </wvobject>
+</wave_config>

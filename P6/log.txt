@@ -1,0 +1,27 @@
+Running: D:\XilinxISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -nodebug -prj mips.prj -o mips.exe tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:\Desktop\P6\ALU.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\BYTEEN.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\CMP.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\CTRL.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\DASM.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\DATA_EXT.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\DM.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\EXT.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\FWD_CTRL.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\GRF.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\header.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\IM.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\MDU.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\mips.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\NPC.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\PC.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\SPDREG.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\SPEREG.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\SPMREG.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\SPWREG.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\STALL_CTRL.v" into library work
+Analyzing Verilog file "E:\Desktop\P6\tb.v" into library work

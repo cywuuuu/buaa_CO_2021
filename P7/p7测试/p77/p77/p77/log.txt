@@ -1,0 +1,41 @@
+Running: D:\XilinxISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -nodebug -prj mips.prj -o mips.exe tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:\Desktop\P7\测试数据-1\tb.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\测试数据-2-bd1-from_Pot\tb.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\测试数据-3-bd2-from_Pot\tb.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\测试数据-4-eret_and_int-from_Pot\tb.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\测试数据-5-int_before_md-from_Pot\tb.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\测试数据-6-int_in_bubble-from_Pot\tb.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\测试数据-7-md_before_eret-from_Pot\tb.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\测试数据-8-eret_with_int_on_bubble-from_cjb\tb.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\ALU.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\BRG.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\BYTEEN.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\CMP.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\CP0.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\cpu.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\CTRL.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\DATA_EXT.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\DM.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\EXT.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\FWD_CTRL.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\GRF.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\header.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\IM.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\MDU.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\mips.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\mips_tb.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\NPC.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\PC.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\shishi.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\SPDREG.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\SPEREG.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\SPMREG.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\SPWREG.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\STALL_CTRL.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\standard_timer.v" into library work
+Analyzing Verilog file "E:\Desktop\P7\tttt.v" into library work
+Starting static elaboration

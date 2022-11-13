@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Desktop/p77/p77/p77/CPU.xst" -ofn "E:/Desktop/p77/p77/p77/CPU.syr" 

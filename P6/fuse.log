@@ -1,0 +1,57 @@
+Running: D:\XilinxISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/Desktop/P6/mips_txt_isim_beh.exe -prj E:/Desktop/P6/mips_txt_beh.prj work.mips_txt work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Desktop/P6/STALL_CTRL.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/SPWREG.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/SPMREG.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/SPEREG.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/SPDREG.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/PC.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/NPC.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/MDU.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/GRF.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/FWD_CTRL.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/EXT.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/DATA_EXT.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/DASM.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/CTRL.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/CMP.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/BYTEEN.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/ALU.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/mips.v" into library work
+Analyzing Verilog file "E:/Desktop/P6/tb.v" into library work
+Analyzing Verilog file "D:/XilinxISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "E:/Desktop/P6/mips.v" Line 118: Port fwd_src_sel is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Desktop/P6/mips.v" Line 165: Port reg_dst is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Desktop/P6/mips.v" Line 207: Port reg_dst is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Desktop/P6/mips.v" Line 247: Port ALU_src is not connected to this instance
+Completed static elaboration
+Compiling module PC
+Compiling module DASM
+Compiling module SPDREG
+Compiling module NPC
+Compiling module CTRL
+Compiling module GRF
+Compiling module EXT
+Compiling module CMP
+Compiling module SPEREG
+Compiling module ALU
+Compiling module MDU
+Compiling module SPMREG
+Compiling module BYTEEN
+Compiling module DATA_EXT
+Compiling module SPWREG
+Compiling module FWD_CTRL
+Compiling module STALL_CTRL
+Compiling module mips
+Compiling module mips_txt
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 20 Verilog Units
+Built simulation executable E:/Desktop/P6/mips_txt_isim_beh.exe
+Fuse Memory Usage: 57816 KB
+Fuse CPU Usage: 1733 ms

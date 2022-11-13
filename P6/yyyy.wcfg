@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Desktop/P6/mips_txt_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_txt" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/mips_txt/uut/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/F_instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">F_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/D_instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/E_instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/M_instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/W_instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">W_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/m_data_rdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">m_data_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_data_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/m_data_wdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">m_data_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_data_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/w_grf_wdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w_grf_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">w_grf_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/w_grf_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w_grf_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">w_grf_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/m_data_byteen" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">m_data_byteen[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_data_byteen[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/i_byteen/byte_en" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">byte_en[3:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_en[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/i_dnpc/NPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">NPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/i_dnpc/NPCop" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">NPCop[2:0]</obj_property>
+      <obj_property name="ObjectShortName">NPCop[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/i_dctrl/branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/i_dcmp/A" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/i_dcmp/B" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/i_dcmp/cmp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cmp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cmp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/i_byteen/A" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/i_byteen/WE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WE</obj_property>
+      <obj_property name="ObjectShortName">WE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/i_byteen/LS_op" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">LS_op[1:0]</obj_property>
+      <obj_property name="ObjectShortName">LS_op[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/i_byteen/byte_en" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">byte_en[3:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_en[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/w_grf_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">w_grf_we</obj_property>
+      <obj_property name="ObjectShortName">w_grf_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/i_wctrl/reg_write" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reg_write</obj_property>
+      <obj_property name="ObjectShortName">reg_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/i_wctrl/ADDI" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ADDI</obj_property>
+      <obj_property name="ObjectShortName">ADDI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/i_wctrl/ANDI" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ANDI</obj_property>
+      <obj_property name="ObjectShortName">ANDI</obj_property>
+   </wvobject>
+</wave_config>

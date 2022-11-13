@@ -1,0 +1,68 @@
+Running: D:\XilinxISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o E:/Desktop/p77/p77/p77/mips_txt_isim_beh.exe -prj E:/Desktop/p77/p77/p77/mips_txt_beh.prj work.mips_txt work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/STALL_CTRL.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/SPWREG.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/SPMREG.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/SPEREG.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/SPDREG.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/PC.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/NPC.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/MDU.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/GRF.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/FWD_CTRL.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/EXT.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/DATA_EXT.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/CTRL.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/CP0.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/CMP.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/BYTEEN.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/ALU.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/standard_timer.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/cpu.v" into library work
+WARNING:HDLCompiler:35 - "E:/Desktop/p77/p77/p77/cpu.v" Line 274: <M_int_exc_req> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/Desktop/p77/p77/p77/cpu.v" Line 276: <M_iseret> is already implicitly declared earlier.
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/BRG.v" into library work
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/mips.v" into library work
+WARNING:HDLCompiler:35 - "E:/Desktop/p77/p77/p77/mips.v" Line 103: <IRQ0> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "E:/Desktop/p77/p77/p77/mips.v" Line 105: <m_data_rdata_cpu> is already implicitly declared earlier.
+Analyzing Verilog file "E:/Desktop/p77/p77/p77/mips_tb.v" into library work
+Analyzing Verilog file "D:/XilinxISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "E:/Desktop/p77/p77/p77/cpu.v" Line 131: Port DM_RD is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Desktop/p77/p77/p77/cpu.v" Line 187: Port stall is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Desktop/p77/p77/p77/cpu.v" Line 238: Port stall is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Desktop/p77/p77/p77/cpu.v" Line 304: Port stall is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:/Desktop/p77/p77/p77/cpu.v" Line 339: Port E_mtc0_dst is not connected to this instance
+Completed static elaboration
+Compiling module PC
+Compiling module SPDREG
+Compiling module NPC
+Compiling module CTRL
+Compiling module GRF
+Compiling module EXT
+Compiling module CMP
+Compiling module SPEREG
+Compiling module ALU
+Compiling module MDU
+Compiling module SPMREG
+Compiling module BYTEEN
+Compiling module DATA_EXT
+Compiling module CP0
+Compiling module SPWREG
+Compiling module FWD_CTRL
+Compiling module STALL_CTRL
+Compiling module CPU
+Compiling module BRG
+Compiling module TC
+Compiling module mips
+Compiling module mips_txt
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 23 Verilog Units
+Built simulation executable E:/Desktop/p77/p77/p77/mips_txt_isim_beh.exe
+Fuse Memory Usage: 60572 KB
+Fuse CPU Usage: 3718 ms

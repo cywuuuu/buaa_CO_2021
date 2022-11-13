@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj cpu -o C:/Users/86135/Desktop/test_demo/test_p5/cpu_beta3/cpu_heavy/cpu/CHK.tfi -lib work C:/Users/86135/Desktop/test_demo/test_p5/cpu_beta3/cpu_heavy/cpu/src//M_CHK.v -module CHK -template D:/PROGRAM/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj cpu -o C:/Users/86135/Desktop/test_demo/test_p7/cpu_beta_2(submit).h/CP0.tfi -lib work C:/Users/86135/Desktop/test_demo/test_p7/cpu_beta_2(submit).h/src//CP0.v -module CP0 -template D:/PROGRAM/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

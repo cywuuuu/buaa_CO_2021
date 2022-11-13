@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+CHK instance_name (
+    .DM_OUT(DM_OUT), 
+    .CHK_op(CHK_op), 
+    .M_chk(M_chk)
+    );
+
+

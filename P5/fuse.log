@@ -1,0 +1,59 @@
+Running: D:\XilinxISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe --nodebug --prj mips.prj -o mips.exe mips_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:\Desktop\pipeline_create2\ALU.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\BYTEEN.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\CMP.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\cpu.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\CTRL.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\DATA_EXT.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\DM.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\EXT.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\FWD_CTRL.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\GRF.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\header.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\IM.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\MDU.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\mips.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\mips_tb.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\NPC.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\PC.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\SPDREG.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\SPEREG.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\SPMREG.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\SPWREG.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\STALL_CTRL.v" into library work
+Analyzing Verilog file "E:\Desktop\pipeline_create2\tb.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "E:\Desktop\pipeline_create2\cpu.v" Line 107: Port DM_RD is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\Desktop\pipeline_create2\cpu.v" Line 152: Port stall is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\Desktop\pipeline_create2\cpu.v" Line 192: Port stall is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\Desktop\pipeline_create2\cpu.v" Line 228: Port stall is not connected to this instance
+Completed static elaboration
+Compiling module PC
+Compiling module SPDREG
+Compiling module NPC
+Compiling module CTRL
+Compiling module GRF
+Compiling module EXT
+Compiling module CMP
+Compiling module SPEREG
+Compiling module ALU
+Compiling module MDU
+Compiling module SPMREG
+Compiling module BYTEEN
+Compiling module DATA_EXT
+Compiling module SPWREG
+Compiling module FWD_CTRL
+Compiling module STALL_CTRL
+Compiling module cpu
+Compiling module mips
+Compiling module mips_tb
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 19 Verilog Units
+Built simulation executable mips.exe
+Fuse Memory Usage: 33904 KB
+Fuse CPU Usage: 749 ms

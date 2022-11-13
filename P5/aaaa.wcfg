@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Desktop/pipeline_create2/tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/uut/i_dctrl/LRM" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">LRM</obj_property>
+      <obj_property name="ObjectShortName">LRM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/uut/F_instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">F_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/uut/D_instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/uut/E_instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">E_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">E_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/uut/M_instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">M_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/uut/W_instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">W_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">W_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/uut/i_dnpc/NPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">NPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NPC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/uut/i_dnpc/F_PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">F_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">F_PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/uut/stall" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/i_inst_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_inst_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_inst_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/uut/i_dnpc/jreg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">jreg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jreg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/uut/i_dctrl/jr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">jr</obj_property>
+      <obj_property name="ObjectShortName">jr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/uut/i_dnpc/NPCop" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">NPCop[2:0]</obj_property>
+      <obj_property name="ObjectShortName">NPCop[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/uut/i_dctrl/branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/uut/i_dnpc/NPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">NPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NPC[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1 @@
+java -jar mars.jar nc ic mc CompactDataAtZero maze.asm < input.txt
